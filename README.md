@@ -17,7 +17,10 @@ repo sync
 Clone this repo
 
 ```bash
-git clone https://github.com/TapetalArray/GKI-Custom
+git clone https://github.com/xindaowei1/GKI-Custom
+```
+```bash
+git clone https://gh-proxy.com/https://github.com/xindaowei1/GKI-Custom
 ```
 
 Apply patches and configuration files
