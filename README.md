@@ -13,9 +13,13 @@ mkdir android-kernel; cd android-kernel
 repo init --depth 1 -u https://android.googlesource.com/kernel/manifest -b [BRANCH]
 repo sync
 ```
-
+```bash
+mkdir android-kernel && cd android-kernel
+# 使用清华镜像初始化，并指定分支（例如 common-android13-5.15）
+repo init -u https://aosp.tuna.tsinghua.edu.cn/kernel/manifest -b common-android13-5.15
+repo sync -c -j$(nproc --all)
 Clone this repo
-
+```
 ```bash
 git clone https://github.com/xindaowei1/GKI-Custom
 ```
